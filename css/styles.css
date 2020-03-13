@@ -1,0 +1,165 @@
+/******************** HOME PAGE STYLING ********************/
+
+body {
+    margin: 0px;
+    text-align: center;
+    /*cssfontstack.com*/
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+    background-color: rgb(247, 247, 247);
+}
+
+h1 {
+    color: #3E9C87;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem; /*use percentage or em (or rem) instead of pixels in font size for website to be dynamic. 16px = 100% = 1em*/
+}
+
+h2 {
+    color: #3E9C87;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: 6px dotted rgb(183, 212, 212);
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.avi {
+    width: 10%;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright {
+    color: rgb(223, 221, 221);
+    font-size: 0.75rem;
+    margin: 20px 0;
+}
+
+.top-container {
+    background-color: #E0EBE8;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container {
+   margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: rgb(142, 180, 171);
+    padding: 50px 0 20px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.rounded {
+    border-radius: 100%;
+    /*flaticon.com or giphy.com*/
+}
+
+a {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgrey;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.code-img {
+    width: 25%;
+    float: left; /* do not use float for positioning, use it only for wrapping text and other very neccessary cases */
+    margin-right: 30px;
+}
+
+.chilli-img {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #30e3cb), color-stop(1, #2bc4ad) );
+	background:-moz-linear-gradient( center top, #30e3cb 5%, #2bc4ad 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#30e3cb', endColorstr='#2bc4ad');
+	background-color:#30e3cb;
+	-webkit-border-top-left-radius:9px;
+	-moz-border-radius-topleft:9px;
+	border-top-left-radius:9px;
+	-webkit-border-top-right-radius:9px;
+	-moz-border-radius-topright:9px;
+	border-top-right-radius:9px;
+	-webkit-border-bottom-right-radius:9px;
+	-moz-border-radius-bottomright:9px;
+	border-bottom-right-radius:9px;
+	-webkit-border-bottom-left-radius:9px;
+	-moz-border-radius-bottomleft:9px;
+	border-bottom-left-radius:9px;
+text-indent:0;
+	display:inline-block;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:15px;
+	font-weight:normal;
+	font-style:normal;
+height:41px;
+	line-height:41px;
+width:156px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #30e3cb;
+}.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #2bc4ad), color-stop(1, #30e3cb) );
+	background:-moz-linear-gradient( center top, #2bc4ad 5%, #30e3cb 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#2bc4ad', endColorstr='#30e3cb');
+	background-color:#2bc4ad;
+}.btn:active {
+	position:relative;
+    top:1px;
+}
