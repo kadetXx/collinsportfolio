@@ -121,6 +121,10 @@ a:hover {
     margin-left: 30px;
 }
 
+.contact-me h3 {
+    font-size: 1rem;
+}
+
 .btn {
 	-moz-box-shadow:inset 0px 1px 0px 0px #bee2f9;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #bee2f9;
